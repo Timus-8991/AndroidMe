@@ -35,6 +35,18 @@
             android:layout_height="180dp"
         android:scaleType = "centerInside"/>
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/middle_container"
+            android:scaleType = "centerInside"
+            ></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:scaleType = "centerInside"
+            android:id="@+id/leg_container"></FrameLayout>
 
     </LinearLayout>
 
