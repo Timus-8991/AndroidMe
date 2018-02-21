@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity implements MasterListFragmen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       if(savedInstanceState == null)
-       {
+//       if(savedInstanceState == null)
+//       {
            if(findViewById(R.id.android_me_linear_layout) != null)
            {
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements MasterListFragmen
                        .add(R.id.leg_container, legFragment).commit();
 
            }
-       }
+//       }
 
 
     }

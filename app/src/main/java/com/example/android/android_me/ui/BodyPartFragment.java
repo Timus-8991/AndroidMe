@@ -52,17 +52,17 @@ public class BodyPartFragment extends Fragment {
             if (mImageids != null) {
                 imageView.setImageResource(mImageids.get(mListIndex));
 
-//                imageView.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        if (mListIndex < mImageids.size() - 1)
-//                            mListIndex++;
-//                        else
-//                            mListIndex = 0;
-//
-//                        imageView.setImageResource(mImageids.get(mListIndex));
-//                    }
-//                });
+                imageView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (mListIndex < mImageids.size() - 1)
+                            mListIndex++;
+                        else
+                            mListIndex = 0;
+
+                        imageView.setImageResource(mImageids.get(mListIndex));
+                    }
+                });
 
             } else {
                 Log.v("BOdyPartFragment", "mImageIDs is null");
